@@ -22,8 +22,7 @@ class AlsGPT:
 
         self.model_name = model_name
         # intro is fed to the bot
-        self.intro = f"""I am a highly, intelligent chat bot with attitude. I use English language. My name is Brian. The Human's name is {human_name}. I can remember things from earlier in the conversation."""
-        # f"""I am a sarcastic intelligent chat bot. My name is Brian. The Human's name is {human_name}. I can remember things from earlier in the conversation."""
+        self.intro = f"""I am a highly, intelligent chat bot. I use English language. My name is Brian. The Human's name is {human_name}. I can remember things from earlier in the conversation."""
         self.conversation = self.intro
         self.max_tokens = max_tokens
 
